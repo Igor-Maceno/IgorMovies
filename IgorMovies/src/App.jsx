@@ -1,10 +1,14 @@
+import { Link, Outlet } from 'react-router-dom';
+
 import './App.css'
+import Navbar from './components/Navbar';
 
 function App() {
 
   return (
     <>
-      <h2>Igor Movies</h2>
+      <Navbar />
+      <Outlet/>
     </>
   )
 }
